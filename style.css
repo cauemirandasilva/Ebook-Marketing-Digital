@@ -1,0 +1,202 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@0,100;0,200;0,400;0,700;1,100;1,200;1,400;1,700&family=Kanit&family=Lobster&family=Montserrat:wght@100;600;900&family=Open+Sans:wght@300;400;500;800&family=Oswald:wght@300;600;700&family=Raleway:ital,wght@0,100;0,200;0,900;1,100;1,200&family=Roboto&family=Roboto+Condensed&family=Sedgwick+Ave+Display&family=Teko&family=Ysabeau:wght@1;100;300;700;800;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./assets/background.svg);
+  color: #bebebf;
+  gap: 2rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#header {
+  margin-bottom: 1rem;
+}
+
+aside {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  width: 65%;
+  margin: 0.5rem;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+h1 {
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+
+#copy {
+  width: 100%;
+  text-align: center;
+  background-color: rgb(0, 119, 255);
+  color: white;
+  padding: 1rem;
+}
+
+#knowMore {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+
+}
+
+li {
+  font-family: "Roboto", sans-serif;
+  font-weight: regular;
+  margin-bottom: 1rem;
+}
+
+#moreInformations{
+  margin: 1rem auto 2rem;
+  width: 65%;
+}
+
+button {
+  width: 100%;
+  padding: 1rem;
+  background-color: rgb(168, 2, 168);
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-family: 'Montserrat';
+  font-weight: 600;
+}
+
+#depositions {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+#person {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem;
+}
+
+
+#personName {
+  font-weight: bold;
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+}
+
+#buy{
+  font-family: 'Montserrat';
+  font-weight: 900;
+  background-color: rgb(7, 151, 7);
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*justify-content: center*/;
+  gap: 1rem;
+  padding: 1rem;
+  text-align: center;
+  font-family: 'Montserrat';
+
+}
+
+#footer, img {
+  margin-top: 1rem;
+}
+
+
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: regular;
+}
+
+#purchaseNow{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ text-align: center;
+ gap: 1rem
+}
+
+@media (min-width: 600px) {
+
+
+  #mainContent{
+  display: flex;
+  flex-direction: row;
+  }
+
+  #mainContent img{
+    width:40%;
+  }
+
+#moreInFormations{
+  margin: 0;
+}
+
+#depositions{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 1rem;
+}
+
+
+#depositions img{
+  width: 60%;
+}
+
+#person{
+ width: 33%;
+}
+
+#footer{
+ width: 100%;
+ display: flex;
+ flex-direction: row;
+justify-content: center;
+gap:4rem;
+}
+
+#footer img {
+ width: 30%;
+}
+
+#purchaseNow{
+}
+
+#buy{
+ width: 60%;
+}
+
+}
